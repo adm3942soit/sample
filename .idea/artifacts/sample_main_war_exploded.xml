@@ -1,0 +1,21 @@
+<component name="ArtifactManager">
+  <artifact type="exploded-war" build-on-make="true" name="sample_main:war exploded">
+    <output-path>$PROJECT_DIR$/build/artifacts/sample_main_war_exploded</output-path>
+    <root id="root">
+      <element id="directory" name="WEB-INF">
+        <element id="directory" name="classes">
+          <element id="module-output" name="sample_main" />
+        </element>
+        <element id="directory" name="lib">
+          <element id="library" level="project" name="Gradle: javax.persistence:persistence-api:1.0.2" />
+          <element id="library" level="project" name="Gradle: javax.validation:validation-api:1.1.0.Final" />
+          <element id="library" level="project" name="Gradle: javax.annotation:jsr250-api:1.0" />
+          <element id="library" level="project" name="Gradle: javax.transaction:javax.transaction-api:1.2" />
+        </element>
+      </element>
+      <element id="javaee-facet-resources" facet="sample_main/web/Web Gradle : sample-1.0-SNAPSHOT.war" />
+      <element id="javaee-facet-resources" facet="sample_main/web/Web" />
+      <element id="javaee-facet-resources" facet="sample_main/javaeeApplication/JavaEE Application Gradle : sample-1.0-SNAPSHOT.ear" />
+    </root>
+  </artifact>
+</component>

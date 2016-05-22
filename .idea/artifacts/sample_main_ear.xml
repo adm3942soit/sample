@@ -1,0 +1,8 @@
+<component name="ArtifactManager">
+  <artifact type="ejb-jar" build-on-make="true" name="sample_main:ear">
+    <output-path>$PROJECT_DIR$/build/artifacts/sample_main_ear</output-path>
+    <root id="archive" name="sample_main_ear.jar">
+      <element id="artifact" artifact-name="sample_main:ear exploded" />
+    </root>
+  </artifact>
+</component>

@@ -1,0 +1,27 @@
+/* AUTOMATICALLY GENERATED ON Sun May 22 13:17:44 EEST 2016*/
+/* DO NOT EDIT */
+
+grant {
+  permission javax.security.jacc.EJBMethodPermission "MessagesFacadeREST", "remove,Local,java.lang.Object";
+  permission javax.security.jacc.EJBMethodPermission "MessagesFacadeREST", "create,Local,java.lang.Object";
+  permission javax.security.jacc.EJBMethodPermission "MessagesFacadeREST", "remove,Local,java.lang.Integer";
+  permission javax.security.jacc.EJBMethodPermission "MessagesFacadeREST", "edit,Local,java.lang.Integer,bean.Messages";
+  permission javax.security.jacc.EJBMethodPermission "MyBean", "insert,Local,int";
+  permission javax.security.jacc.EJBMethodPermission "MessagesFacadeREST", "create,Local,bean.Messages";
+  permission javax.security.jacc.EJBMethodPermission "MessagesFacadeREST", "findAll,Local,";
+  permission javax.security.jacc.EJBMethodPermission "MessagesFacadeREST", "count,Local,";
+  permission javax.security.jacc.EJBMethodPermission "MessagesFacadeREST", "find,Local,java.lang.Object";
+  permission javax.security.jacc.EJBMethodPermission "MyBean", "addNumbers,Local,int,int";
+  permission javax.security.jacc.EJBMethodPermission "MessagesFacadeREST", "find,Local,java.lang.Integer";
+  permission javax.security.jacc.EJBMethodPermission "MessagesFacadeREST", "findRange,Local,int[]";
+  permission javax.security.jacc.EJBMethodPermission "MessagesFacadeREST", "countREST,Local,";
+  permission javax.security.jacc.EJBMethodPermission "MessagesFacadeREST", "edit,Local,java.lang.Object";
+  permission javax.security.jacc.EJBMethodPermission "MyBean", "verify,Local,";
+  permission javax.security.jacc.EJBMethodPermission "MessagesFacadeREST", "findRange,Local,java.lang.Integer,java.lang.Integer";
+};
+
+grant      principal * * {
+  permission javax.security.jacc.EJBRoleRefPermission "MyBean", "**";
+  permission javax.security.jacc.EJBRoleRefPermission "MessagesFacadeREST", "**";
+};
+
